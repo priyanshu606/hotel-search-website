@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="search-container">
+      <div class="search-box">
+        <!-- City input -->
+        <div class="search-field">
+          <label for="city">CITY OR HOTEL NAME</label>
+          <div class="input-icon">
+            <input type="text" id="city" placeholder="City or hotel name" />
+            <img src="../hotel-search/image/city.png" alt="" class="icon" >
+          </div>
+        </div>
+  
+        <!-- Check-in -->
+        <div class="search-field">
+          <label for="checkin">CHECK-IN</label>
+          <div class="input-icon">
+            <input type="date" id="checkin" />
+            <span class="icon">📅</span>
+          </div>
+        </div>
+  
+        <!-- Check-out -->
+        <div class="search-field">
+          <label for="checkout">CHECK-OUT</label>
+          <div class="input-icon">
+            <input type="date" id="checkout" value="12-11-2012"/>
+            <span class="icon">📅</span>
+          </div>
+        </div>
+  
+        <!-- Guests -->
+        <div class="search-field">
+          <label for="guests">GUESTS</label>
+          <select id="guests">
+            <option>1 guest</option>
+            <option selected>2 guests</option>
+            <option>3 guests</option>
+            <option>4+ guests</option>
+          </select>
+        </div>
+  
+        <!-- Search Button -->
+        <button id="searchBtn">SEARCH</button>
+      </div>
+    </div>
+  
+   
+    <div id="card-container">
+      <!-- <div class="card">
+        <div class="card-img">
+        <img src="image1.png" alt="Hotel Name">
+      </div>
+        <div class="card-content">
+          <div class="hotel-name">Hotel Name</div>
+          <div class="location">City Name</div>
+        </div>
+          <div class="price-section">
+            <p>Price per night</p>
+            <div class="price">₹ 1200</div>
+            <button class="view-btn" data-id="123">View Details</button>
+          </div>
+      </div> -->
+    </div>
+    
+    <div class="image-container">
+      <img src="../hotel-search/image/image2.png" alt="" class="img">
+    </div>
+     
+    <div class="image-footer">
+      
+      <h1 class="img-text">BOOK TICKET FASTER.</h1>
+       <h1 class="img-text"> DOWNLOAD OUR MOBILE APPS TODAY</h1>
+     
+        <p class="img-para">The application will help you find attractions, tours or adventures in a new city</p>
+    </div>
+  </div>
+ 
+</body>
+<script src="script.js"></script>
+</html>
